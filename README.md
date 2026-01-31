@@ -41,3 +41,6 @@ Implementacion de estilos mediante tailwind
 # Firestore
 
 En tareas.js es donde se ha realizado toda la lógica de la API, así como la actualización de tareas, el filtrado de tareas y la asignación de tareas a usuarios que ya se han logeado. La funcion principal es la de UseTareasStore, ya que es la función con la cual el resto de componentes pueden interactuar con el contenido de la Store.
+
+# Instalacion de proyecto 
+Descargar enlace de git, abrir en vscode y realizar un npm install
