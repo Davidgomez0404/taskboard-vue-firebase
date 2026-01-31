@@ -44,3 +44,9 @@ En tareas.js es donde se ha realizado toda la lógica de la API, así como la ac
 
 # Instalacion de proyecto 
 Descargar enlace de git, abrir en vscode y realizar un npm install
+
+# Link de git 
+https://github.com/Davidgomez0404/taskboard-vue-firebase.git
+
+# Link de vercel
+https://vercel.com/davidgomezgimenos-projects/taskboard-vue-firebase
