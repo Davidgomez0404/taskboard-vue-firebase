@@ -7,10 +7,10 @@ import { collection, doc, getDocs, getDoc, setDoc, updateDoc, arrayUnion } from 
 const API_URL = 'https://dummyjson.com/todos'
 
 export const useTareasStore = defineStore('tarea', () => {
-  const tareas = ref([])           // todas las tareas de la API
-  const loading = ref(false)       // estado de carga
-  const error = ref(null)          // mensaje de error
-  const filter = ref('all')        // all | completed | pending | assigned
+  const tareas = ref([])           
+  const loading = ref(false)       
+  const error = ref(null)         
+  const filter = ref('all')        
 
   // ----------------------------------------
   // 1️⃣ Obtener tareas de la API

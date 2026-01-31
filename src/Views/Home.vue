@@ -1,13 +1,10 @@
 <template>
   <div>
-    <!-- Navbar -->
     <NavBar />
 
-    <!-- Contenido principal -->
     <div class="p-4">
       <h1 class="text-2xl font-bold mb-4">Tareas</h1>
 
-      <!-- Filtro -->
       <select v-model="store.filter" class="border p-1 mb-4">
         <option value="all">Todas</option>
         <option value="completed">Finalizadas</option>
@@ -15,7 +12,6 @@
         <option value="assigned">Asignadas</option>
       </select>
 
-      <!-- Estados -->
       <div v-if="store.loading">Cargando tareas...</div>
       <div v-else-if="store.error" class="text-red-500">{{ store.error }}</div>
 

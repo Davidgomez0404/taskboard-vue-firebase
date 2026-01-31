@@ -43,7 +43,6 @@ onMounted(async () => {
   myTasks.value = []
   if (snap.exists()) {
     for (const t of snap.data().tasks) {
-      // opcional: mostrar todas o solo no completadas
       if (!t.completed) myTasks.value.push(t)
     }
   }
