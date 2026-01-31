@@ -7,7 +7,7 @@
     </div>
 
     <!-- Botón cerrar sesión -->
-    <button @click="logout" class="border px-2 py-1">
+    <button @click="logout" class="border px-2 py-1 bg-red-500 rounded">
       Cerrar sesión
     </button>
   </nav>

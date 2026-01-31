@@ -10,4 +10,4 @@ import { onMounted, ref } from 'vue';
 
 </template>
 
-<style scoped></style>
+
