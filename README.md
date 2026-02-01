@@ -45,15 +45,6 @@ En tareas.js es donde se ha realizado toda la lógica de la API, así como la ac
 # Instalacion de proyecto 
 Descargar enlace de git, abrir en vscode y realizar un npm install
 
-# Crear .env
-Para que el proyecto funcione, hay que crear el archivo .env en la raiz del proyecto y asignar tus claves correspondientes a las siguientes variables:
-VITE_FIREBASE_API_KEY=
-VITE_FIREBASE_AUTH_DOMAIN=
-VITE_FIREBASE_PROJECT_ID=
-VITE_FIREBASE_STORAGE_BUCKET=
-VITE_FIREBASE_MESSAGING_SENDER_ID=
-VITE_FIREBASE_APP_ID=
-
 # Link de git 
 https://github.com/Davidgomez0404/taskboard-vue-firebase.git
 
